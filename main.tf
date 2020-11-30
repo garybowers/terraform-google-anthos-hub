@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-resource "google_storage_bucket" "main" {
+resource "google_project_service" "anthos" {
   project = var.project_id
-  name    = var.bucket_name
+ 
 }
